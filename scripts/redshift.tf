@@ -79,7 +79,7 @@ resource "aws_redshift_cluster" "redshift_cluster" {
   cluster_identifier = "redshift-cluster"
   database_name      = "db_dw"
   master_username    = "adminuser"
-  master_password    = "S9curePassw2rd"
+  master_password    = "xxxxxxxxxxx"
   node_type          = "dc2.large"
   number_of_nodes    = 1
 
